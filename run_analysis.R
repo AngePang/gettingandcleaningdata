@@ -80,5 +80,4 @@ columnnames <- colnames(haraverages)
 goodcolnames <- c("subject","activity",paste("avg",columnnames[3:length(columnnames)],sep=""))
 colnames(haraverages) <- goodcolnames
 
-save(haraverages,file = "haraverages.Rda")
-#load("haraverages.Rda")
+write.table(haraverages,file = "haraverages.txt", row.name = FALSE)
