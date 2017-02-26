@@ -2,7 +2,7 @@
 
 ## Variable Descriptions
 
-The table below describes the data in the summarized dataset **haraverages.rda**.
+The table below describes the data in the summarized dataset **haraverages.txt**.
 This data is generated after running the run_analysis.R script on the [HAR data](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 

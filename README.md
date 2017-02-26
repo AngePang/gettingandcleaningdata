@@ -4,7 +4,7 @@ This repo includes the following files:
 
 1. Codebook: Describes the variables in the summarized haraverages dataset.
 2. run_analysis.R: Script which runs on the HAR dataset to generate the summarized haraverages dataset.
-3. haraverages.rda: The summarized dataset obtained after running the run_analysis.R script.
+3. haraverages.txt: The summarized dataset obtained after running the run_analysis.R script.
 
 ## Analysis Script
 
@@ -24,4 +24,4 @@ This project has just one script viz. **run_analysis.R** which performs the foll
 12. Apply (use lapply) **summarizefun** on all subjects.
 13. Massage the "list" of summarized data into a single dataframe.
 14. Rearrange columns to make more sense.
-15. Save the summarized data frame **haraverages.rda**
+15. Save the summarized data frame **haraverages.txt**
