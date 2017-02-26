@@ -2,6 +2,17 @@
 
 ## Variable Descriptions
 
+### Variables used in Script
+
+1. `testdataset`: dataset with test data
+2. `traindataset`: dataset with training data
+3. `jointdataset`: training and test data combined.
+4. `filtereddataset`: dataset with just means and std deviations.
+5. `summarizefun`: function used to calculate averages.
+6. `haraverages`: the summary dataset.
+
+### Variables names in the averages dataset
+
 The table below describes the data in the summarized dataset **haraverages.txt**.
 This data is generated after running the run_analysis.R script on the [HAR data](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
