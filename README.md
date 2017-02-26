@@ -1,12 +1,15 @@
 # Getting and Cleaning Data Course Project
 
 This repo includes the following files:
+
 1. Codebook: Describes the variables in the summarized haraverages dataset.
 2. run_analysis.R: Script which runs on the HAR dataset to generate the summarized haraverages dataset.
 3. haraverages.rda: The summarized dataset obtained after running the run_analysis.R script.
 
 ## Analysis Script
+
 This project has just one script viz. **run_analysis.R** which performs the following actions to generate a summary of the HAR data:
+
 1.  Loads the **dplyr** library
 2.  Loads names of the activities and features and stores them for future use.
 3.  Reads the **test** dataset and stores it into a data frame.
